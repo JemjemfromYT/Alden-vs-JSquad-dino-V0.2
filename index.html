@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alden vs JSquad dino🦖 V0.2</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="image" href="overlay.jpg">
+  <link rel="stylesheet" href="rock.css">
+  <link rel="preload" as="image" href="dino1.gif">
+  <link rel="preload" as="image" href="dino2.gif">
+  <link rel="preload" as="image" href="dino3.gif">
+  <link rel="preload" as="image" href="dino4.gif">
+  <link rel="preload" as="image" href="blood.gif">
+  <link rel="preload" as="image" href="enemy1.jpg">
+  <link rel="preload" as="image" href="shiny.gif">
+  <link rel="preload" as="image" href="gun.png">
+</head>
+<body>
+<img src="overlay.jpg" id="overlay">
+<audio src="spin.mp3" id="spin" preload="auto"></audio>
+<audio src="selected.mp3" id="selected" preload="auto"></audio>
+<audio src="selected2.mp3" id="selected2" preload="auto"></audio>
+<audio src="jakeS.mp3" id="jakeS" preload="auto"></audio>
+<audio src="jorossS.mp3" id="jorossS" preload="auto"></audio>
+<audio src="jebS.mp3" id="jebS" preload="auto"></audio>
+<audio src="killed.mp3" id="killed" preload="auto"></audio>
+<audio src="pistolShot.mp3" id="pistolShot" preload="auto"></audio>
+<audio src="jeffS.mp3" id="jeffS" preload="auto"></audio>
+<audio src="jeffS2.mp3" id="jeffS2" preload="auto"></audio>
+<audio src="jakeS2.mp3" id="jakeS2" preload="auto"></audio>
+<audio src="jorossS2.mp3" id="jorossS2" preload="auto"></audio>
+<audio src="jebS2.mp3" id="jebS2" preload="auto"></audio>
+<audio src="toolBreak.mp3" id="toolBreak" preload="auto"></audio>
+
+<div id="drawDone">
+
+<div id="dinoDiv">
+
+<img src="blood.gif" id="blood" alt="error">
+</div>
+<div id="drawNone">
+<div id="drawHold1"></div>
+<div id="dinoDraw">
+<img src="dino1.gif" id="d1Draw" alt="error">
+<img src="dino2.gif" id="d2Draw" alt="error">
+<img src="dino3.gif" id="d3Draw" alt="error">
+<img src="dino4.gif" id="d4Draw" alt="error">
+</div>
+<button id="drawBut">Draw</button>
+
+<div id="outId">
+<h1 id="output1"></h1>
+<h1 id="output2"></h1>
+<h1 id="output3"></h1>
+
+</div>
+</div>
+<div>
+ 
+<div id="name">
+<p id="jake">1.Jake</p>
+<p id="joross">2.Joross</p>
+<p id="jeb">3.Jeb</p>
+</p>
+</div>
+<h1 id="output4"></h1>
+
+<h1 id="start"></h1>
+
+<img src="enemy1.jpg" id="e1" alt="error">
+
+<canvas id="canvas1"></canvas>
+<canvas id="canvas2"></canvas>
+
+<div id="d4Hitbox"></div>
+
+<h1 id="collisionMessage" style="display: none; position: absolute; top: 150px; left: 100px; z-index: 9999; color: red; font-size: 24px; z-index: 6;">tap again to start</h1>
+
+<img src="enemy1.jpg" id="ePic" alt="error">
+<audio src="jumpscare.mp3" id="jumpscare" preload="auto"></audio>
+<div id="wait"></div>
+
+  <div id="sun"></div>
+  <div id="moon"></div>
+<img src="shiny.gif" id="shiny" class="shiny" alt="error">
+<img src="gun.png" id="gun" alt="error"></img>
+</img>
+<img src="gun.png" id="gunItem" alt="error"></img>
+<button id="f">Fire</button>
+
+<div id="explode"></div>
+<div id="bullet" style=" width: 30px; height: 10px; background: white; border: 3px solid whitesmoke;"></div>
+
+<h6 id="endless">Mode: Endless</h6>
+
+<div id="grass"></div>
+<div id="land"></div>
+<div id="atmosphere"></div>
+<img src="dino1.gif" id="d1" alt="error">
+<img src="dino2.gif" id="d2" alt="error">
+<img src="dino3.gif" id="d3" alt="error">
+<img src="dino4.gif" id="d4" alt="error">
+
+<h5 id="t">TIME SURVIVE: PAG DRAW NA</h5>
+
+<button id="fix">Fixed Error</button>
+<h1 id="error">MUSIC ERROR DETECTED</h1>
+
+<div id="star"></div>
+<img src="shield.png" id="shield" alt="error">
+<img src="shield.png" id="shieldItem" alt="error"></img>
+<img src="shiny.gif" id="shiny2" alt="error">
+
+<div id="disappear">
+<img src="jSquad.jpeg" id="j">
+
+
+<h1 id="cred">Credits</h1>
+</div>
+
+  
+  <script src="main.js"></script>
+</body>
+</html>
