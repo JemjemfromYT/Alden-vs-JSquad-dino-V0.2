@@ -801,7 +801,7 @@ let div1BoundShield = d4HitboxElement.getBoundingClientRect();
     shield.style.display="none"
     shiny2.style.display="none"
     shieldItem.style.display="block"
-    alert("contac")
+    
   }
 
 
