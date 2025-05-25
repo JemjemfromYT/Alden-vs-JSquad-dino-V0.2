@@ -766,7 +766,7 @@ function shieldFunc(){
 setInterval(()=>{
 let shieldMath = Math.random()
 console.log(shieldMath + " shield")
-if (shieldMath < 0.6){
+if (shieldMath < 0.06){
   shield.style.display="block"
   shiny2.style.display="block"
   shield.classList.add("give")
